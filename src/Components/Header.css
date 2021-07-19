@@ -1,0 +1,24 @@
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #1f2640;
+}
+
+.headerBlueStacks {
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  left: 182px;
+  top: 17px;
+}
+.img {
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  left: 182px;
+  top: 17px;
+  background-color: #1f2640;
+}

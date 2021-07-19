@@ -1,0 +1,131 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bloc-tabs {
+  display: flex;
+  position: relative;
+}
+.UpcomingChallenges {
+  position: absolute;
+  width: 178px;
+  height: 28px;
+  left: 200px;
+  top: 210px;
+  background: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /*color: #83a515;*/
+  color: #556789;
+  border: none;
+  cursor: pointer;
+}
+
+.LiveCampaigns {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 414px;
+  top: 210px;
+  background: none;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #556789;
+  cursor: pointer;
+}
+
+.PastCampaigns {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 594px;
+  top: 210px;
+  border: none;
+  background: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #556789;
+  cursor: pointer;
+}
+
+.tabOne {
+  position: absolute;
+  width: 178px;
+  height: 28px;
+  left: 200px;
+  top: 210px;
+  background: white;
+  border-bottom: 1px solid transparent;
+  border-color: #83a515;
+  color: #83a515;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.tabTwo {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 414px;
+  top: 210px;
+  background: white;
+  border-bottom: 1px solid transparent;
+  border-color: #83a515;
+  color: #83a515;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.tabThree {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 594px;
+  top: 210px;
+  background: white;
+  border-bottom: 1px solid transparent;
+  border-color: #83a515;
+  color: #83a515;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: white;
+}

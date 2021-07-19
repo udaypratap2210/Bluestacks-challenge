@@ -1,0 +1,61 @@
+.Table {
+  position: absolute;
+  width: 1077px;
+  height: 781px;
+  left: 181px;
+  top: 294px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-spacing: none;
+}
+Table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+}
+
+.Thead {
+  /*position: absolute;*/
+  width: 1077px;
+  height: 48px;
+  left: 181px;
+  top: 293px;
+  border-color: #f1f1f4;
+  background: #f1f1f4;
+}
+
+.tr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-transform: uppercase;
+
+  color: #556789;
+  border: none;
+}
+
+.td {
+  /* position: absolute;
+    
+    left: 0%;
+    right: 91.34%;
+    top: calc(50% - 24px / 2 - 18px); */
+  padding-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  height: 4px;
+  color: #2b416c;
+}
+.th {
+  text-indent: -70px;
+}
